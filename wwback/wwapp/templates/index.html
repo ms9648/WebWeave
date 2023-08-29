@@ -1,0 +1,20 @@
+{% extends 'default.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>갈릭</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>나의 웹사이트</h1>
+    {% load static %}
+    <img src="{% static 'img/profile.jpg' %}" alt="cat">
+</body>
+</html>
+{% endblock %}
